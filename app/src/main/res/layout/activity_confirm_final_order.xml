@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyers.ConfirmFinalOrder">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please write your Shipment Details"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="20dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/confirm_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:layout_marginRight="20dp"
+        android:hint="Your Name"/>
+
+    <EditText
+        android:id="@+id/confirm_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_name"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:hint="Your Phone Number"/>
+
+    <EditText
+        android:id="@+id/confirm_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_phone_number"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="text"
+        android:hint="Your Home Address"/>
+
+    <EditText
+        android:id="@+id/confirm_city_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_address"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="number"
+        android:maxLength="6"
+        android:hint="Your City Pin Code"/>
+
+
+    <TextView
+        android:id="@+id/conform_total_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Amount"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/confirm_final_order_btn"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/confirm_final_order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:onClick="ConfirmOrder"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

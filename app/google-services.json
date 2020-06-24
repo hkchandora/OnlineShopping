@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "42511773274",
+    "firebase_url": "https://online-shopping-77549.firebaseio.com",
+    "project_id": "online-shopping-77549",
+    "storage_bucket": "online-shopping-77549.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42511773274:android:ec6e9c18554f266ffef263",
+        "android_client_info": {
+          "package_name": "com.himanshu.onlineshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42511773274-9res79mps5oagkbkt91eeosfo3p6h0ai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTPgr-do0-tJN7fnRQ5y3FD8nJv1CW9kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42511773274-9res79mps5oagkbkt91eeosfo3p6h0ai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
